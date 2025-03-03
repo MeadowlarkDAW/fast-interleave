@@ -1,0 +1,17 @@
+[package]
+name = "fast-interleave"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["Billy Messenger <60663878+BillyDM@users.noreply.github.com>"]
+readme = "README.md"
+repository = "https://github.com/MeadowlarkDAW/fast-interleave"
+description = "Fast interleaving and de-interleaving methods"
+categories = ["algorithms", "multimedia::audio", "no-std", "no-std::no-alloc"]
+keywords = ["interleave", "deinterleave", "interlace", "deinterlace"]
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
